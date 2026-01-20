@@ -36,31 +36,79 @@
   </div>
 </header>
 <!-- banner section -->
-<section class="bg-[url('./images/hero-bg.png')] bg-cover bg-center">
-  <div class="max-w-4xl mx-auto px-6 py-24 text-center">
-    <div class="relative w-80 h-80 md:w-80 md:h-80 mx-auto rounded-full bg-linear-to-r from-yellow-400 via-pink-500 to-indigo-600 flex items-center justify-center">
-      <img src="./images/microphone.png" class="w-1/2 h-1/2 object-contain">
-      <div class="absolute top-4 right-4 bg-green-500 text-[#1A0B2E] font-semibold text-[16px] px-5 py-2 rounded-[20px] shadow-green-600">
+<section class="w-full bg-[url('./images/hero-bg.png')] bg-no-repeat bg-cover bg-center">
+  <div class="max-w-5xl mx-auto px-4 md:px-6 lg:px-8 py-16 md:py-20 lg:py-24 text-center">
+
+    <div class="relative mx-auto
+      w-44 md:w-64 lg:w-80
+      aspect-square
+      rounded-full
+      bg-linear-to-r from-yellow-400 via-pink-500 to-indigo-600
+      flex items-center justify-center">
+
+      <img src="./images/microphone.png"
+           class="w-1/2 md:w-[45%] lg:w-1/2 object-contain">
+
+      <div class="absolute
+        top-2 right-2
+        md:top-3 md:right-3
+        lg:top-4 lg:right-4
+        bg-green-500 text-white
+        text-xs md:text-sm lg:text-base
+        px-3 py-1
+        md:px-4 md:py-1.5
+        lg:px-5 lg:py-2
+        rounded-full animate-pulse
+ ">
         NEW
       </div>
     </div>
 
-    <h1 class="text-4xl md:text-6xl font-extrabold mt-10">TechWave</h1>
+    <h1 class="mt-8 md:mt-10
+      text-3xl md:text-4xl lg:text-6xl
+      font-extrabold text-white">
+      TechWave
+    </h1>
 
-    <p class="text-gray-300 mt-6 text-base md:text-lg">
+    <p class="mt-4 md:mt-5
+      text-sm md:text-base lg:text-lg
+      text-gray-300
+      max-w-md md:max-w-lg lg:max-w-xl
+      mx-auto">
       Your daily dose of tech insights, productivity hacks, and personal growth
     </p>
 
-    <div class="flex flex-row md:flex-row justify-center gap-5 mt-10">
-      <button class="px-6 py-3 rounded-full bg-linear-to-r from-yellow-400 via-pink-500 to-indigo-600">
-        <i class="fa-brands fa-spotify mr-2"></i> Listen on Spotify
+    <div class="flex flex-nowrap justify-center gap-3 md:gap-4 lg:gap-5 mt-8 md:mt-10">
+
+      <button class="flex items-center gap-2
+        px-4 md:px-6 lg:px-7
+        py-2 md:py-3
+        rounded-full
+        bg-linear-to-r from-yellow-400 via-pink-500 to-indigo-600
+        text-white
+        text-xs md:text-sm lg:text-base
+        min-w-0">
+        <i class="fa-brands fa-spotify"></i>
+        <span>Listen on Spotify</span>
       </button>
-      <button class="px-6 py-3 rounded-full border border-green-500 text-green-500">
-        <i class="fa-regular fa-envelope mr-2"></i> Subscribe
+
+      <button class="flex items-center gap-2
+        px-4 md:px-6 lg:px-7
+        py-2 md:py-3
+        rounded-full
+        border border-green-500 text-green-500
+        text-xs md:text-sm lg:text-base
+        min-w-0">
+        <i class="fa-regular fa-envelope"></i>
+        <span>Subscribe</span>
       </button>
+
     </div>
+
   </div>
 </section>
+
+
 <!-- about section -->
 <section class="py-28">
   <div class="max-w-6xl mx-auto px-6 text-center">
@@ -93,7 +141,7 @@
 <section class="py-24">
   <div class="max-w-6xl mx-auto px-6">
 
-    <h2 class="text-[2.2rem] md:text-[3rem] text-white font-bold text-center mb-12">
+    <h2 class="text-[2rem] lg:text-[3rem] text-white font-bold text-center mb-12">
       Why Choose Tech Wave
     </h2>
 
@@ -240,25 +288,44 @@
 </section>
 
 <!-- footer section -->
- <section class="bg-[url('./images/footer-bg.png')] bg-cover bg-center">
-    
-    <div class="max-w-6xl  mx-auto border-2 px-1 flex flex-col justify-center items-center">
-        <div >
-            <h1 class="text-4xl md:text-6xl font-extrabold mt-10">Tech<span class="bg-linear-to-r from-yellow-400 via-pink-500 to-indigo-600 bg-clip-text text-transparent">Wave</span></h1>
+ <section class="w-full bg-[url('./images/footer-bg.png')] bg-no-repeat bg-cover bg-center">
+  <div class="max-w-6xl  lg:mx-auto px-4 py-16 flex flex-col items-center text-center">
 
-        </div>
-        <div class="grid grid-cols-2 lg:grid-cols-4 gap-10 mt-10 justify-center items-center">
-            <p class="text-gray-300 text-sm"><i class="fa-brands fa-spotify"></i>  Spotify</p>
-            <p class="flex gap-2 items-center text-gray-300 text-sm"><img src="./images/apple-podcast.png" alt="">Apple Podcast</p>
-            <p class="text-gray-300 text-sm"><i class="fa-brands fa-youtube"></i>  Youtube</p>
-            <p class="text-gray-300 text-sm"><i class="fa-brands fa-twitter"></i>  Twitter</p>
-           
-            
-        </div>
-        <p class="mt-10 text-gray-300 text-md mb-10">© 2026 TechWave Podcast. All rights reserved.</p>
+    <h1 class="text-3xl lg:text-6xl font-extrabold text-white">
+      Tech<span class="bg-linear-to-r from-yellow-400 via-pink-500 to-indigo-600 bg-clip-text text-transparent">Wave</span>
+    </h1>
+
+    <div class="grid grid-cols-2 lg:grid-cols-4 gap-6  mt-10 items-center">
+
+      <p class="flex items-center gap-2 text-gray-300 text-sm">
+        <i class="fa-brands fa-spotify text-lg"></i>
+        Spotify
+      </p>
+
+      <p class="flex items-center gap-2 text-gray-300 text-sm">
+        <img src="./images/apple-podcast.png" class="w-5 h-5 object-contain">
+        Apple Podcast
+      </p>
+
+      <p class="flex items-center gap-2 text-gray-300 text-sm">
+        <i class="fa-brands fa-youtube text-lg"></i>
+        Youtube
+      </p>
+
+      <p class="flex items-center gap-2 text-gray-300 text-sm">
+        <i class="fa-brands fa-twitter text-lg"></i>
+        Twitter
+      </p>
 
     </div>
- </section>
+
+    <p class="mt-10 text-gray-400 text-xs lg:text-sm">
+      © 2026 TechWave Podcast. All rights reserved.
+    </p>
+
+  </div>
+</section>
+
 
    
 </body>
